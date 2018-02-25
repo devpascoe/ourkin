@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+</head>
+
+<body>
+<h1>test</h1>
+
+<script>
+    axios.get('https://api.triiibes.io/api/domains', {
+        headers: {
+            authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5qSkNSREE1UWtVM1FqaEdNVUkyTVRCQ01rTkZPRGRETnpCRFJFTXpOa0U1TVVVME1UVTBNQSJ9.eyJodHRwczovL2FwaS50cmlpaWJlcy5pby9ncm91cHMiOlsiYWRtaW5pc3RyYXRvcnMiLCJ0ZXJyYWluX2VkaXRvcnMiLCJ0cmlpaWJlc19hZG1pbnMiXSwiaHR0cHM6Ly9hcGkudHJpaWliZXMuaW8vcHJvZmlsZXMiOltdLCJpc3MiOiJodHRwczovL2FpcnNpY2tuZXNzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHwxIiwiYXVkIjpbImh0dHBzOi8vYXBpLnRyaWlpYmVzLmlvIiwiaHR0cHM6Ly9haXJzaWNrbmVzcy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTE5NDU0NzUzLCJleHAiOjE1MTk1NDExNTMsImF6cCI6Ilc0YzVSMUxaRzFMTjNmZ3BWNENnMGpxMFRLVVc3VXV2Iiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCJ9.JxfPWpB3WlMK8gTmySBCGVmLNva6ntMMEY85zeeggHSjOlp5xO2yf6a2Cv5tbatU8_1Tm4B9mw29vCp0ET1eRS4lWDAwNkHE9PjWakRPUCZS0_Ki9oDSFp8IObrCCuVyHQLfgc2COzRkHpdU5t2c_WgvrVZT307XhtWqzaYgqtqzFtNlah0njAdTCPpqT26trUh3Kgmr6YDMlo7gYwNYTemaZYyENjbwoZLiPdPurFoGUinL0O1g6IKnffqE9d-ieccnNiFpkTSMIrBxEz6pN9jMl6T_l70vjbv50QN6OmQ1-PElinyvICtSkjdFxWGUQ4q-8US9V0yFgs_UdyPQ8w'
+        }
+    }).then(res => {
+        console.log(res.data)
+    })
+</script>
+
+</body>
+
+</html>
